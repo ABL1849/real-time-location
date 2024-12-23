@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 
 // Allow requests from your client server
 const corsOptions = {
-    origin: 'https://locationreal.onrender.com/',
+    origin: 'https://just-art-production.up.railway.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
@@ -45,6 +45,6 @@ io.on('connection', (socket) => {
 
 
 
-server.listen(3000, () => {
+server.listen(3000, '0.0.0.0', () => {
     console.log("Server is running on port 3000!")
 })

@@ -55,11 +55,6 @@ closeClient.addEventListener('click', ()=>{
 })
 
 
-const go = document.querySelector('.go')
-go.addEventListener('click', ()=> {recomendContainer.style.display = 'block'; window.history.back()} )
-
-const recClose = document.querySelector('.rec-close')
-recClose.addEventListener('click', ()=> {recomendContainer.style.display = 'none'})
 
 
 

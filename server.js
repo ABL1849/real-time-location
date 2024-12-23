@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 
 // Allow requests from your client server
 const corsOptions = {
-    origin: 'https://just-art-production.up.railway.app/',
+    origin: 'https://real-time-location-production.up.railway.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
